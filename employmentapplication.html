@@ -103,37 +103,41 @@
         
         
         
-         <div class="grid-container" id="form2">
-          <form>
-            <h2 id="positionInformation">Position Information</h2>
-            <label for="positions" id="positionDesired" class="positionDesired">Position Desired:</label>
-              <select name="positions" id="positions">
-                <option value="--Choose One--">--Choose One--</option>
-                <option value="server">Server</option>
-                <option value="host">Host</option>
-                <option value="bartender">Bartender</option>
-                <option value="cook">Cook</option>
-                <option value="dishwasher">Dishwasher</option>
-              </select>
-            </div>
-              <br>
-            <label for="dateAvailable" class="availableDate">Date Available to Start:</label>
-            <input type="date" name="dateAvailable">
-        
-              <label for="position" class="position"> Hours Desired:</label>
-              <input type="checkbox" name="position" value="FULL-TIME">Full-Time
-              <input type="checkbox" name = "position" value = "PART-TIME">Part-Time<br>
-        
-      </div>
-            <!-- Monday: <input type = "checkbox" name="monAM"> AM: <input type = "checkbox" name="monPM"> PM:<br>
-            Tuesday: <input type = "checkbox" name="tueAM"> AM: <input type = "checkbox" name="tuePM"> PM:<br>
-            Wednesday: <input type = "checkbox" name="tueAM"> AM: <input type = "checkbox" name="tuePM"> PM:<br>
-            Thursday: <input type = "checkbox" name="tueAM"> AM: <input type = "checkbox" name="tuePM"> PM:<br>
-            Friday: <input type = "checkbox" name="tueAM"> AM: <input type = "checkbox" name="tuePM"> PM:<br>
-            Saturday: <input type = "checkbox" name="tueAM"> AM: <input type = "checkbox" name="tuePM"> PM:<br>
-            Sunday: <input type = "checkbox" name="tueAM"> AM: <input type = "checkbox" name="tuePM"> PM:<br> -->
-        </form>
-       </div>
+        <table>
+          
+            <form>
+              <thead>
+                <th colspan="4">Position Information</th>
+              </thead>
+              <tr>
+                <td><label for="positions" id="positionDesired" class="positionDesired">Position Desired:</label></td>
+                  <td>
+                    <select name="positions" id="positions">
+                      <option value="--Choose One--">--Choose One--</option>
+                      <option value="server">Server</option>
+                      <option value="host">Host</option>
+                      <option value="bartender">Bartender</option>
+                      <option value="cook">Cook</option>
+                      <option value="dishwasher">Dishwasher</option>
+                    </select>
+                  </td>
+                <td><label for="dateAvailable" class="availableDate">Date Available to Start:</label></td>
+                <td><input type="date" name="dateAvailable"></td>
+              </tr>
+          
+                <label for="position" class="position"> Hours Desired:</label>
+                <input type="checkbox" name="position" value="FULL-TIME">Full-Time
+                <input type="checkbox" name = "position" value = "PART-TIME">Part-Time<br>
+          
+              <!-- Monday: <input type = "checkbox" name="monAM"> AM: <input type = "checkbox" name="monPM"> PM:<br>
+              Tuesday: <input type = "checkbox" name="tueAM"> AM: <input type = "checkbox" name="tuePM"> PM:<br>
+              Wednesday: <input type = "checkbox" name="tueAM"> AM: <input type = "checkbox" name="tuePM"> PM:<br>
+              Thursday: <input type = "checkbox" name="tueAM"> AM: <input type = "checkbox" name="tuePM"> PM:<br>
+              Friday: <input type = "checkbox" name="tueAM"> AM: <input type = "checkbox" name="tuePM"> PM:<br>
+              Saturday: <input type = "checkbox" name="tueAM"> AM: <input type = "checkbox" name="tuePM"> PM:<br>
+              Sunday: <input type = "checkbox" name="tueAM"> AM: <input type = "checkbox" name="tuePM"> PM:<br> -->
+          </form>
+        </table>
        <!-- <div class="grid-item" id="empHistory">
         <h2 id = "employmentHistory">Employment History</h2>
       </div>

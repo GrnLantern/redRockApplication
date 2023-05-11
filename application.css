@@ -1,0 +1,40 @@
+
+* {
+  box-sizing: border-box;
+}
+body {
+  background:#000 url('background.jpg');
+}
+div.header{
+  background: #f6eeaf;
+  border: #000 1px solid;
+  block-size: auto;
+  inline-size: auto;
+}
+h1 {
+  text-align: center;
+  text-justify: auto;
+  background: #930a05;
+  color: #FFF;
+  padding: 20px 10px;
+  font-weight: bold;
+ 
+}
+table{
+  background: #f6eeaf;
+  border: #000 1px solid;
+  block-size: auto;
+  inline-size: auto;
+  margin-right: auto;
+  margin-left: auto;
+  width: 75%;
+}
+thead{
+  background: #930a05;
+  color: #FFF;
+  text-align: center;
+  padding: 10px;
+  font-size: 24px;
+  font-weight: bold;
+}
+

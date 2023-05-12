@@ -37,4 +37,7 @@ thead{
   font-size: 24px;
   font-weight: bold;
 }
+td {
+  text-align: right;
+}
 
